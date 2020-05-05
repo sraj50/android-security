@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alert_password">Note: Please be careful about shoulder hacking when the password is displayed.</string>
+    <string name="app_name">FIT5003 Assignment 1 Task 1 </string>
+    <string name="button_val">Press to continue</string>
+    <string name="display_password">Display password</string>
+    <string name="hidden_input">Please write the text you which to digitally sign</string>
+    <string name="hint_password">Input Keystore password</string>
+    <string name="password">Password</string>
+    <string name="private_description">Please write the text you which to digitally sign.</string>
+    <string name="return_result">Return Result</string>
+    <string name="use_activity">Enter Custom Keystore</string>
+    <string name="user_description">Start private activity when the button is tapped.</string>
+</resources>

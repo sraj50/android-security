@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "10,2,12,9,11,8,7,5,6,4,3",
+                        "startColumns": "1,4,1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "594,57,803,534,714,470,426,275,372,214,121",
+                        "endColumns": "118,65,53,58,87,62,42,95,52,59,91",
+                        "endOffsets": "711,118,855,591,800,531,467,369,423,272,211"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,243,300,362,453,519,565,664,720,783",
+                        "endColumns": "121,65,56,61,90,65,45,98,55,62,94",
+                        "endOffsets": "172,238,295,357,448,514,560,659,715,778,873"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.jssec.android.activity.privateactivity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:6:3-31:17
+12        android:allowBackup="false"
+12-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:7:7-34
+13        android:debuggable="true"
+14        android:icon="@drawable/ic_launcher"
+14-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:8:7-43
+15        android:label="@string/app_name"
+15-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:9:7-39
+16        android:testOnly="true" >
+17
+18        <!-- Private activity -->
+19        <!-- *** POINT 1 *** Do not specify taskAffinity -->
+20        <!-- *** POINT 2 *** Do not specify launchMode -->
+21        <!-- *** POINT 3 *** Explicitly set the exported attribute to false. -->
+22        <activity
+22-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:15:5-18:36
+23            android:name="org.jssec.android.activity.privateactivity.PrivateActivity"
+23-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:16:9-40
+24            android:exported="false"
+24-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:18:9-33
+25            android:label="@string/app_name" />
+25-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:17:9-41
+26
+27        <!-- Public activity launched by launcher -->
+28        <activity
+28-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:21:5-30:16
+29            android:name="org.jssec.android.activity.privateactivity.PrivateUserActivity"
+29-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:22:9-44
+30            android:exported="true"
+30-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:24:9-32
+31            android:label="@string/app_name" >
+31-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:23:9-41
+32            <intent-filter>
+32-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:25:7-29:23
+33                <action android:name="android.intent.action.MAIN" />
+33-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:26:9-61
+33-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:26:17-58
+34                <action android:name="android.intent.action.ALL_APPS" />
+34-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:27:9-65
+34-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:27:17-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:28:9-69
+36-->/media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:28:19-66
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
