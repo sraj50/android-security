@@ -1,64 +1,72 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:3:11-63
 		INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
 		INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:6:3-31:17
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:7:3-33:17
 	android:label
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:10:7-39
 	android:icon
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:8:7-43
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:9:7-43
 	android:allowBackup
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:7:7-34
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:8:7-34
 activity#org.jssec.android.activity.privateactivity.PrivateActivity
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:15:5-18:36
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:17:5-20:36
 	android:label
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:19:9-41
 	android:exported
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:18:9-33
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:20:9-33
 	android:name
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:18:9-40
 activity#org.jssec.android.activity.privateactivity.PrivateUserActivity
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:21:5-30:16
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:23:5-32:16
 	android:label
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:25:9-41
 	android:exported
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:24:9-32
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:26:9-32
 	android:name
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:22:9-44
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:24:9-44
 intent-filter#action:name:android.intent.action.ALL_APPS+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:25:7-29:23
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:27:7-31:23
 action#android.intent.action.MAIN
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:26:9-61
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:28:9-61
 	android:name
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:26:17-58
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:28:17-58
 action#android.intent.action.ALL_APPS
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:27:9-65
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:29:9-65
 	android:name
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:27:17-62
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:29:17-62
 category#android.intent.category.LAUNCHER
-ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:28:9-69
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:30:9-69
 	android:name
-		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:28:19-66
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:30:19-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:34:3-78
+	android:name
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:34:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:35:3-79
+	android:name
+		ADDED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml:35:20-76
 uses-sdk
 INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/sid/monash/2020/sem1/fit5003-software-security/assignment1/FIT5003S1_2020_A1/Activity PrivateActivity/app/src/main/AndroidManifest.xml

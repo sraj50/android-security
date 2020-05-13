@@ -3,10 +3,12 @@
           package="org.jssec.android.activity.privateactivity" >
 
 
+
   <application
       android:allowBackup="false"
       android:icon="@drawable/ic_launcher"
       android:label="@string/app_name" >
+
     
     <!-- Private activity -->
     <!-- *** POINT 1 *** Do not specify taskAffinity -->
@@ -29,4 +31,6 @@
       </intent-filter>
     </activity>
   </application>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>

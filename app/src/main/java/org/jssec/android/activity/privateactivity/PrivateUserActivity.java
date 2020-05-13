@@ -286,7 +286,8 @@ public class PrivateUserActivity extends Activity {
         i.putExtra("CL_k", ks_f);
 
         // must change for setActivityForResult()
-        startActivity(i);
+//        startActivity(i);
+        startActivityForResult(i, REQUEST_CODE);
 
     }catch (RuntimeException  e){
         e.printStackTrace();
