@@ -26,6 +26,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyProperties;
+
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -163,6 +164,7 @@ public class PrivateActivity extends Activity {
             } else {        // custom keystore
                 ksCustom = KeyStore.getInstance("pkcs12");
 //                Toast.makeText(this, getExternalFilesDir(null).getAbsolutePath(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, Environment.getExternalStorageDirectory().getAbsolutePath(), Toast.LENGTH_SHORT).show();
 
                 // load file from storage
                 /*
@@ -171,19 +173,24 @@ public class PrivateActivity extends Activity {
                 }
                 */
 
-                /*
+//                if (ContextCompact) {
+//
+//                }
+
                 if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
                 try (InputStream ksData = new FileInputStream("/mnt/sdcard" + File.separator + ksInfo.getKeystore_file())) {
-                    ks.load(ksData, ksInfo.getPassword_val().toCharArray());
+                    ksCustom.load(ksData, ksInfo.getPassword_val().toCharArray());
                     }
                 }
-                */
 
+
+                /*
                 if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
                     try (InputStream ksData = new FileInputStream(getExternalFilesDir(null).getAbsolutePath() + File.separator + ksInfo.getKeystore_file())) {
                         ksCustom.load(ksData, ksInfo.getPassword_val().toCharArray());
                     }
                 }
+                */
 
                 TextView aliasView = (TextView) findViewById(R.id.alias_text);
 
