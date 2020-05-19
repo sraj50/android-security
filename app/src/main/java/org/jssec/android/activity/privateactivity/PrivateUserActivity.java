@@ -17,9 +17,12 @@
 package org.jssec.android.activity.privateactivity;
 
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 
 import android.text.Editable;
@@ -31,6 +34,10 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import java.io.IOException;
 
@@ -86,6 +93,7 @@ public class PrivateUserActivity extends Activity {
     private boolean mIsDummyPassword;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -116,8 +124,6 @@ public class PrivateUserActivity extends Activity {
 
         // Set a listner to change check state of password display option.
         mPasswordDisplayCheck.setOnCheckedChangeListener(new OnPasswordDisplayCheckedChangeListener());
-
-
 
 
     }
